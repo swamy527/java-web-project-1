@@ -8,7 +8,10 @@
     <artifactId>my-java-web-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-
+<properties>
+         <sonar.host.url>http://18.212.100.209:9000</sonar.host.url>
+         <sonar.login>squ_91be83786612f176a6293336869f7ceab98a01d2</sonar.login>
+</properties>
     <dependencies>
         <!-- Servlet API -->
         <dependency>
